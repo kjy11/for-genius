@@ -1,9 +1,10 @@
-# Scheduled runs act as the last committer of this file; keep that a verified account.
+# Scheduled runs act as the last user to modify the CRON LINE below (not just this
+# file); keep that an active, verified account. Editing other lines does not change it.
 name: send-daily-exercise
 
 on:
   schedule:
-    - cron: '35 21 * * 0-5'  # 6:35 AM KST (Monday to Saturday)
+    - cron: '36 21 * * 0-5'  # 6:36 AM KST (Monday to Saturday)
   workflow_dispatch:
 
 jobs:
